@@ -8,37 +8,57 @@
     <title>Tilmelding til Samkørsel</title>
 </head>
 <body>
-   
+     <!--========== HEADER ==========-->
+     <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="index.html" class="nav__logo">logo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="quiz.html" class="nav__link ">Quiz</a></li>
+                    <li class="nav__item"><a href="signup.html" class="nav__link active-link">Tilmeld</a></li>
+                
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
     <form class="modal-content2">
-        <div class="container3">
+        <div class="quiz">
             <h1>Tilmeld dig samkørsel</h1>
+            <br>
             <p>Udfylde denne formular for at blive tilmeldt listen</p>
             <hr>
-            <label for="firstName"><b>Fornavn</b></label>
+            <label for="firstName"><b>Fornavn</b></label><br>
             <input type="text" id="firstName" placeholder="Fornavn" name="firstName" required>
-
-            <label for="lastName"><b>Efternavn</b></label>
+<br>
+            <label for="lastName"><b>Efternavn</b></label><br>
             <input type="text" id="lastName" placeholder="Efternavn" name="lastName" required>
-
-            <label for="email"><b>Email</b></label>
+<br>
+            <label for="email"><b>Email</b></label><br>
             <input type="text" id="email" placeholder="Email" name="email" required>
-
-            <label for="username"><b>Brugernavn</b></label>
+<br>
+            <label for="username"><b>Brugernavn</b></label><br>
             <input type="text" id="username2" placeholder="Brugernavn" name="username" required>
-
-            <label for="psw"><b>Password</b></label>
+<br>
+            <label for="psw"><b>Password</b></label><br>
             <input type="password" id="password2" placeholder="Password" name="psw" required>
-
-            <label for="psw-confirm"><b>Godkend Password</b></label>
+<br>
+            <label for="psw-confirm"><b>Godkend Password</b></label><br>
             <input type="password" id="cfmpassword2" placeholder="Godkend Password" name="psw-confirm" required>
 
             <br>
             <br>
-            <p>For at tilmelde dig samkørselslisten, skal du have læst accepteret vores  <a href="#" style="color:dodgerblue">
+            <p>For at tilmelde dig samkørselslisten, skal du have læst og accepteret vores  <a href="#" style="color:dodgerblue">
                     Privatlivspolitik</a>.</p>
 
             <div class="clearfix">
-         
+         <br>
                 <button type="submit" class="signupbtn" onclick="signUp()">Tilmeld</button>
                             </div>
         </div>

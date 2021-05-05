@@ -4,12 +4,12 @@
 :root {
   --header-height: 3rem;
 
-  --first-color: lightskyblue;
+  --first-color: #27aae1;
   --first-color-alt: #048654;
   --title-color: #393939;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
-  --body-color: #FBFEFD;
+  --body-color:#e6f4fa;
   --container-color: #FFFFFF;
 
   --body-font: 'Ubuntu', sans-serif;
@@ -375,5 +375,29 @@ img{
     column-gap: 7rem;
   }
 }
+
+.quiz,h1{
+  background-color:white;
+  color: black;
+  border:yellow 5px solid;
+  padding:5px;
+}
+.options{
+  background-color: white;
+  color:cornflowerblue;
+  padding-bottom: 500px;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.quiz{
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color:skyblue;
+  border: none;
+  padding-bottom: 500px;
+}
+
 
 
